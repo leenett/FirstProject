@@ -1,0 +1,73 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url("img/bg1.jpg");
+    background-size: cover;
+    margin: 0;
+
+}
+
+#global{
+    background-color: rgba(50, 150, 150, 0.5);
+    border-radius: 20px;
+    margin: 50px;
+    height: 100%;
+    min-height: 100%;
+    width: auto;
+    min-width: 700px;
+}
+.container{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    color: floralwhite;
+    width: auto;
+    min-width: 700px;
+    font-size: 25px;
+    padding: 80px 0 80px 0;
+}
+
+.container form label{
+    font-weight: 100;
+    color: white;
+    margin: 20px 10px 0 40px;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: all-petite-caps;
+    text-align: center;
+    color: midnightblue;
+    text-shadow: royalblue 4px 4px 4px;
+
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: royalblue 4px 4px 4px;
+}
+
+button{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    margin: 20px 0 30px 0;
+    background-color: rgb(0, 150, 150);
+    border-radius: 5px;
+    border-color: teal;
+
+}
+button:hover{
+    background-color: teal;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300i,300" rel="stylesheet">
+          <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">-->
+      <link rel="stylesheet" href="{% static "style.css" %}">
+  </head>
+  <body>
+    <div id="global">
+    <div class="container">
+        <h1>Школа робототехніки</h1>
+        <p class="title">Незабаром відкиття!<br/>Залиште Ваш e-mail для детальної інформації:</p>
+            <div>
+                <form action="" method="post"> {% csrf_token %}
+                    <label> Ваш e-mail </label>
+                    {{ form.email}}
+                    <label> Ваше ім`я </label>
+                    {{ form.name }}
+                    <br>
+                    <button type="submit">Відправити</button>
+                </form>
+            </div>
+    </div>
+    </div>
+  </body>
+</html>
