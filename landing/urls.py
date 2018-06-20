@@ -20,6 +20,7 @@ from landing import views
 
 urlpatterns = [
 
-    url(r'^landing/', views.landing, name='landing'),
+    url(r'^$', views.home, name='home'),
+    url(r'^landing/$', views.landing, name='landing'),
 
 ]

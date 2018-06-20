@@ -16,10 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include
 from django.conf.urls import url
-from landing import views
+from . import views
 
 urlpatterns = [
 
-   # url(r'^landing/', views.landing, name='landing'),
+    # url(r'^basket_adding/', views.basket_adding, name='basket_adding'),
 
 ]

@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: url("img/bg1.jpg");
+    background-image: url("../img/bg1.jpg");
     background-size: cover;
     margin: 0;
 
@@ -18,7 +18,7 @@ body{
     width: auto;
     min-width: 700px;
 }
-.container{
+.contain{
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-weight: lighter;
@@ -29,7 +29,7 @@ body{
     padding: 80px 0 80px 0;
 }
 
-.container form label{
+.contain form label{
     font-weight: 100;
     color: white;
     margin: 20px 10px 0 40px;
@@ -70,4 +70,10 @@ button{
 }
 button:hover{
     background-color: teal;
+}
+
+.product-item{
+    height: 200px;
+    background-color: aliceblue;
+    position: relative;
 }

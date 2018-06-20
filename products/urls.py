@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include
 from django.conf.urls import url
-from landing import views
+from products import views
 
 urlpatterns = [
 
-   # url(r'^landing/', views.landing, name='landing'),
+    # url(r'^landing/', views.landing, name='landing'),
+    url(r'^product/(?P<product_id>\w+)/$', views.product, name='product'),
 
 ]

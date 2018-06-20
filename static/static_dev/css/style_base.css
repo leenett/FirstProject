@@ -1,0 +1,157 @@
+html, body{
+    height: 100%;
+    max-height: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(50, 150, 150, 0.5);
+}
+
+/*body{*/
+    /*margin: 0;*/
+    /*background-color: rgba(50, 150, 150, 0.5);*/
+
+/*}*/
+
+.navbar-top{
+    min-height: 10px;
+    height: 25px;
+    background-color: teal;
+    border: none;
+    border-radius: 0;
+
+}
+
+.navbar{
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+
+}
+
+.navbar-main{
+    background-color: #009494;
+    border: none;
+    border-radius: 0;
+}
+
+.basket-container{
+    position: relative;
+    width: 400px;
+    padding: 15px 10px;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.basket-items{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: #00b3b3;
+    z-index: 10;
+    padding: 10px;
+}
+
+.wrapper{
+    min-height: 100%;
+}
+
+.wrapper-content{
+    overflow: auto;
+    padding-bottom: 180px;
+}
+
+.footer{
+    position: relative;
+    margin-top: -180px;
+    height: 180px;
+    clear: both;
+    background-color: aquamarine;
+}
+
+img{
+    position: center;
+    margin: 0;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: all-petite-caps;
+    text-align: center;
+    color: midnightblue;
+    text-shadow: royalblue 4px 4px 4px;
+    margin: 100px 0 50px 0;
+
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: royalblue 4px 4px 4px;
+}
+
+button{
+    position: absolute;
+    float: bottom;
+    bottom: 5px;
+    left: 55px;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    margin: 20px 0 20px 0;
+    background-color: rgb(0, 150, 150);
+    border-radius: 5px;
+    border-color: teal;
+
+}
+button:hover{
+    background-color: teal;
+}
+
+.button-product{
+   position: initial;
+}
+
+.section-top{
+    margin: 0 0 20px 0;
+}
+
+.product-item{
+    height: 450px;
+    background-color: white;
+    border: 2px solid royalblue;
+    position: relative;
+    padding: 10px 0 5px 0;
+    text-align: center;
+}
+
+
+.discount-container{
+    position: absolute;
+    top: 35%;
+    background: aqua;
+    width: 20%;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.first-lesson{
+    height: 300px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.product-description-tabs{
+    padding: 10px;
+    color: black;
+}
+
+.product-image-item{
+    padding: 5px;
+    margin-bottom: 5px;
+}
